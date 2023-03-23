@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap');
+
+
+body{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.8;
+    color: #545d6d;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800;
+    color: black;
+}
+a  {
+    color: gray;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+.a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+a:hover{
+    color: black;
+}
+.a:hover{
+    color: black;
+}
+img{
+    width: 100%;
+}
+section{
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+/* Navbar */
+.navbar{
+    position: absolute;
+    width: 100%; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 99999;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.navbar .nav-link .navbar-nav{
+    font-size: 14px;
+}
+.social-links a{
+    background-color: #ffffff;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 24px;
+    margin-left: 5px;
+}
+@media(max-width:992px){
+    .navbar{
+        background-color: #202631;
+    }
+}
+/* Hero */
+#hero{
+    background-image: url(../img/cover_1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#hero h1,
+#hero p {
+    color: #ffffff;
+}
+#hero h1{
+    font-weight: 900;
+}
+#hero p{
+    font-size: 18px;
+    max-width: 450px;
+}
+#hero .btn{
+    padding: 17px 35px;
+    border-radius: 100px;
+    border-width: 2px;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+/* Intro */
+.intro{
+    margin-bottom: 60px;
+}
+.intro .hr-line{
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background-color: black;
+}
+.intro h1{
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.intro p{
+    max-width: 500px;
+}
+/* services */
+.service{
+    border-radius: 30px;
+    border: 2px solid gainsboro;
+    padding: 20px;
+    display: flex;
+}
+.service .icon{
+    display: flex;
+    background-color: black;
+    flex: none;
+    border-radius: 30px;
+    border: 2px solid gainsboro;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.link-arrow{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.link-arrow i{
+    transition: 0.5s;
+}
+.link-arrow:hover i{
+    transform: translate(5px,-5px);
+}
+/* Work */
+.introm{
+    margin-bottom: 60px;
+}
+.introm .hr-line{
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+}
+.introm h1{
+    font-weight: 1200;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.introm p{
+    width: 500px;
+    color: #ffffff;
+}
+.introm .btn{
+    padding: 15px 30px;
+    border-radius: 100px;
+    border-width: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.work img{
+    border-radius: 5%;
+}
+.introm .col-lg-4{
+    margin-right: 40px;
+}
+.link-arrowi{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.link-arrowi:hover {
+   color: #ffffff;
+}
+.link-arrowi i{
+    transition: 0.5s;
+}
+.link-arrowi:hover i{
+    transform: translate(5px,-5px);
+    color: #ffffff;
+}
+.project .image{
+    overflow: hidden;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.project .image img{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+
+} 
+.project .image img:hover{
+    
+    transform: scale(1.0);
+}
+/* about */
+.about{
+    margin-bottom: 60px;
+}
+.about .hr-line{
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background-color: black;
+}
+.about h1{
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.about p{
+    width: 500px;
+}
+.about .btn{
+    border-radius: 100px;
+    border: 2px solid black;
+    color: black;
+}
+.aboutimg{
+    border-radius: 5%;
+    height: 70vh;
+}
+
+/* Comment */
+.review{
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.review .person {
+    display: flex;
+    align-items: center;
+}
+.review .person img{
+    width: unset;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.stars{
+    align-items: end;
+    justify-content: end;
+}
+.stars i{
+    color: rgb(245, 182, 9);
+}
+.review p{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+/* contact starts */
+form{
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+form input{
+    background-color: #545d6d;
+}
+.form-label{
+    font-weight: 500;
+}
+.form-control {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    border: transparent;
+}
+form .btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* Insta-posts */
+.insta-posts{
+    position: relative;
+}
+.insta-logo{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #f8f8f8;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    opacity: 0;
+    
+}
+.insta-logo:hover{
+    background-color: #ffffff;
+}
+.insta-posts:hover .insta-logo{
+    opacity: 1;
+    top: 50%;
+}
