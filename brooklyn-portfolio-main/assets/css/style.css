@@ -68,7 +68,7 @@ section{
 }
 /* Hero */
 #hero{
-    background-image: url(../img/cover_1.jpg);
+    background-image: url(../img/tim-swaan-eOpewngf68w-unsplash.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
@@ -247,7 +247,8 @@ section{
     align-items: center;
 }
 .review .person img{
-    width: unset;
+    width: 90px;
+    height: 90px;
     border-radius: 20px;
     margin-right: 20px;
 }
