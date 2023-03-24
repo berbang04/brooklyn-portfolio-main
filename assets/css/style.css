@@ -145,7 +145,7 @@ section{
 }
 /* Work */
 .introm{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .introm .hr-line{
     display: inline-block;
@@ -161,7 +161,7 @@ section{
     text-transform: uppercase;
 }
 .introm p{
-    width: 500px;
+    max-width: 500px;
     color: #ffffff;
 }
 .introm .btn{
@@ -223,7 +223,7 @@ section{
     text-transform: uppercase;
 }
 .about p{
-    width: 500px;
+    max-width: 500px;
 }
 .about .btn{
     border-radius: 100px;
@@ -233,6 +233,7 @@ section{
 .aboutimg{
     border-radius: 5%;
     height: 70vh;
+    width: 100%;
 }
 
 /* Comment */
@@ -247,8 +248,8 @@ section{
     align-items: center;
 }
 .review .person img{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    
     border-radius: 20px;
     margin-right: 20px;
 }
